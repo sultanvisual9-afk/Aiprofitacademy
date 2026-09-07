@@ -1,9 +1,9 @@
-import type { Metadata } from 'next'
 import './globals.css'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'AI Profit Academy | Abiodun Sultan',
-  description: 'Learn AI Skills and Monetization',
+  title: 'AI Profit Academy | Sultan Visual',
+  description: 'Learn AI Skills and Monetization with Abiodun Sultan',
 }
 
 export default function RootLayout({
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-[#08050D]">{children}</body>
+      <body className="bg-[#08050D] text-white antialiased">{children}</body>
     </html>
   )
 }
